@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ribbon-caller
+server:
+  port: 9005
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
+
+
+
