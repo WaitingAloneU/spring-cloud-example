@@ -1,0 +1,22 @@
+server:
+  port: 9007
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://gitlab.smy6.com/yu47251/configuration.git # 配置gitlab仓库的地址，注意，此处必须以.git结尾
+          username: yu47251@126.com
+          password: fa7Eeshu3aecae
+          basedir: F:/spring-cloud-config-properties/
+
+  security:
+    user:
+      name: admin
+      password: admin123
+

@@ -1,4 +1,9 @@
 spring:
   application:
     name: user-service
-
+  cloud:
+    config:
+      uri: http://localhost:9007/
+      password: admin123
+      username: admin
+      profile: dev
