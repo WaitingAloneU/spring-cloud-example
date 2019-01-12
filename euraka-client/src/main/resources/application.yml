@@ -1,4 +1,0 @@
-server:
-  port: 9004
-  servlet:
-    context-path: /
