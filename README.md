@@ -13,7 +13,7 @@
 ## gateway
 - 基于zuul，Feign，Ribbon，eureka的网关简单实现
 
-##config-server
+## config-server
 - 配置管理服务, 基于gitlab, security的配置管理服务
 
 ## demo
